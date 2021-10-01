@@ -1,0 +1,38 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+$primary-color: #61dafb;
+$secondary-color: rgba(0, 195, 137);
+$background-color: #282c34;
+$white-off: #f9f9f9;
+$black-soft: #aaa;
+$black: #444;
+
+html,
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	color: $white-off;
+	font-size: 62.5%;
+}
+body {
+	font-size: 1rem;
+	min-width: 32rem;
+	background-color: $background-color;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+//mobile stules
+@import './mobile.scss';
