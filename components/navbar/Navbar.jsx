@@ -4,13 +4,15 @@ const Navbar = () => {
 	const [collapseMenu, setCollapseMenu] = useState(false);
 
 	return (
-		<div className={`nav__container  ${collapseMenu && 'collapse'}`}>
-			<figure className="bakcground__img">
+		<header className={`nav__container  ${collapseMenu && 'collapse'}`}>
+			<figure
+				className={`bakcground__img ${collapseMenu && 'bakcground__active'}`}
+			>
 				<img src="/react-optimizado.jpg" alt="" className="b-img" />
 			</figure>
 			<nav className="navbar">
 				<figure className="logo">
-					<img src="/favicon.ico" alt="" className="img" />
+					<img src="/View-opti.png" alt="" className="img" />
 				</figure>
 				<div className="menu" onClick={() => setCollapseMenu(!collapseMenu)}>
 					<i className="fas fa-bars"></i>
@@ -20,7 +22,7 @@ const Navbar = () => {
 			<ul className={`sub__menu ${collapseMenu && 'active-opacity'}`}>
 				<li className={`link ${collapseMenu && 'link-show'}`}>SOBRE MI</li>
 				<li className={`link ${collapseMenu && 'link-show2'}`}>PROYECTOS</li>
-				<li className={`link ${collapseMenu && 'link-show3'}`}>CONTACTO</li>
+				<li className={`link ${collapseMenu && 'link-show3'}`}>MI STACK</li>
 
 				<div className="icon__socials">
 					<span className="socials__container">
@@ -31,7 +33,7 @@ const Navbar = () => {
 					</span>
 				</div>
 			</ul>
-		</div>
+		</header>
 	);
 };
 
