@@ -2,7 +2,7 @@ import React from 'react';
 
 const Technologies = () => {
 	return (
-		<>
+		<div className="container__technologies">
 			<h2 className="main__subtitle">Stack de Técnologías</h2>
 			<section className="grid__technologies">
 				<figure className="grid__item">
@@ -111,7 +111,7 @@ const Technologies = () => {
 					<figcaption className="tools-alt">Firebase / Firestore</figcaption>
 				</figure>
 			</section>
-		</>
+		</div>
 	);
 };
 
