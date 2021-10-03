@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const Navbar = () => {
 	const [collapseMenu, setCollapseMenu] = useState(false);
+
+	const handleCollapseMenu = () => setCollapseMenu(!collapseMenu);
 
 	return (
 		<header className={`nav__container  ${collapseMenu && 'collapse'}`}>
@@ -10,17 +13,26 @@ const Navbar = () => {
 			>
 				<img src="/react-optimizado.jpg" alt="" className="b-img" />
 			</figure>
+
 			<nav className="navbar">
 				<figure className="logo">
-					<img src="/View-opti.png" alt="" className="img" />
+					<Link href="/">
+						<a onClick={() => setCollapseMenu(false)}>
+							<img src="/View-opti.png" alt="" className="img" />
+						</a>
+					</Link>
 				</figure>
-				<div className="menu" onClick={() => setCollapseMenu(!collapseMenu)}>
+				<div className="menu" onClick={handleCollapseMenu}>
 					<i className="fas fa-bars"></i>
 					<span className="title">Menu</span>
 				</div>
 			</nav>
 			<ul className={`sub__menu ${collapseMenu && 'active-opacity'}`}>
-				<li className={`link ${collapseMenu && 'link-show'}`}>SOBRE MI</li>
+				<li className={`link ${collapseMenu && 'link-show'}`}>
+					<Link href="/about">
+						<a onClick={handleCollapseMenu}>SOBRE MI</a>
+					</Link>
+				</li>
 				<li className={`link ${collapseMenu && 'link-show2'}`}>PROYECTOS</li>
 				<li className={`link ${collapseMenu && 'link-show3'}`}>MI STACK</li>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Technologies = () => {
+const Stack = () => {
 	return (
 		<div className="container__technologies">
 			<h2 className="main__subtitle">Stack de Técnologías</h2>
@@ -115,4 +115,4 @@ const Technologies = () => {
 	);
 };
 
-export default Technologies;
+export default Stack;
