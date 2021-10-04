@@ -9,7 +9,7 @@ const About = () => {
 				Creo que cuando una persona desea con todas sus fuerzas crecer
 				profesionalmente no es suficiente, realmente te tiene que apasionar lo
 				que haces, lograr adquirir ese sentimiento no es fácil, pero si lo
-				logras solo se vendrán cosas buenas.
+				consigues solo se vendrán cosas buenas.
 			</p>
 
 			<p className="about__text-content">
@@ -23,7 +23,7 @@ const About = () => {
 			<p className="about__text-content">
 				Mi elección se dió por diversos factores, los principales fueron la
 				creatividad, el diseño, y mi gusto por los dispositivos digitales. Así
-				empecé a crecer profesionalmente, desarrollando lo que me apasiona.
+				empecé a crecer profesionalmente, desarrollandome en lo que me apasiona.
 			</p>
 
 			<p className="about__text-content">
@@ -31,8 +31,8 @@ const About = () => {
 				la información y comunicaciones en{' '}
 				<span className="strong">Senati</span>, actualmente estudiante en{' '}
 				<span className="strong">Platzi</span> siguiendo una ruta de aprendizaje
-				constante con un habilidad valiosa que pude adquirir, ser{' '}
-				<span className="strong">autodidacta</span>.
+				constante con grandes habilidades sobretodo una que adquirí con el
+				tiempo, ser <span className="strong">autodidacta</span>.
 			</p>
 
 			<div className="buttons__cv">

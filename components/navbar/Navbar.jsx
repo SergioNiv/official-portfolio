@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/dist/client/router';
 
 const Navbar = () => {
+	const { pathname } = useRouter();
+
 	const [collapseMenu, setCollapseMenu] = useState(false);
 
 	const handleCollapseMenu = () => setCollapseMenu(!collapseMenu);
@@ -29,19 +32,43 @@ const Navbar = () => {
 			</nav>
 			<ul className={`sub__menu ${collapseMenu && 'active-opacity'}`}>
 				<li className={`link ${collapseMenu && 'link-show'}`}>
-					<Link href="/about">
-						<a onClick={handleCollapseMenu}>SOBRE MI</a>
+					<Link href="/">
+						<a
+							onClick={handleCollapseMenu}
+							className={pathname === '/' ? 'link__color-select' : ''}
+						>
+							MI STACK
+						</a>
 					</Link>
 				</li>
-				<li className={`link ${collapseMenu && 'link-show2'}`}>PROYECTOS</li>
-				<li className={`link ${collapseMenu && 'link-show3'}`}>MI STACK</li>
+
+				<li className={`link ${collapseMenu && 'link-show2'}`}>
+					<Link href="/about">
+						<a onClick={handleCollapseMenu}>PROYECTOS</a>
+					</Link>
+				</li>
+
+				<li className={`link ${collapseMenu && 'link-show3'}`}>
+					<Link href="/about">
+						<a
+							onClick={handleCollapseMenu}
+							className={pathname === '/about' ? 'link__color-select' : ''}
+						>
+							SOBRE MI
+						</a>
+					</Link>
+				</li>
 
 				<div className="icon__socials">
 					<span className="socials__container">
-						<i className="fab fa-linkedin"></i>
+						<a href="">
+							<i className="fab fa-linkedin"></i>
+						</a>
 					</span>
 					<span className="socials__container">
-						<i className="fab fa-github"></i>
+						<a href="">
+							<i className="fab fa-github"></i>
+						</a>
 					</span>
 				</div>
 			</ul>
