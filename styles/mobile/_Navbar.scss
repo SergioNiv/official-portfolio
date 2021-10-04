@@ -1,11 +1,36 @@
+.content-opacity {
+	width: 100%;
+	position: absolute;
+	/* height: 0; */
+	position: fixed;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	overflow: hidden;
+	transition: all 0.5s;
+	height: 100vh;
+	display: none;
+	opacity: 0;
+	z-index: 1;
+}
+
+.opacity-show {
+	transition: all 0.5s;
+	opacity: 1;
+	display: block;
+}
+
 .nav__container {
 	width: 100%;
 	max-width: 80rem;
 	margin: 0 auto;
 	position: relative;
-	height: 10rem;
+	height: 7rem;
 	overflow: hidden;
 	transition: all 0.5s;
+	position: fixed;
+	top: 0;
+	background-color: $black;
+	z-index: 2;
 
 	.bakcground__img {
 		width: 100%;
@@ -31,21 +56,21 @@
 
 	.navbar {
 		width: 100%;
-		height: 10rem;
+		height: 7rem;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		color: $secondary-color;
 
 		.logo {
-			width: 8rem;
+			width: 4rem;
 			display: flex;
-			margin-left: 1.5rem;
+			margin-left: 2rem;
 			align-items: center;
 
 			.img {
 				width: 100%;
 				object-fit: cover;
-				padding-top: 1rem;
 			}
 		}
 
@@ -80,7 +105,7 @@
 	.sub__menu {
 		margin: 0 auto;
 		width: 95%;
-		height: 24rem;
+		height: 26rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -143,7 +168,6 @@
 
 		.link__color-select {
 			color: $secondary-color !important;
-			text-decoration: overline;
 		}
 
 		.link-show {
@@ -171,5 +195,10 @@
 
 .collapse {
 	transition: all 0.5s;
-	height: 33rem;
+	height: 31.5rem;
+}
+
+.content-null {
+	width: 100%;
+	height: 8rem;
 }

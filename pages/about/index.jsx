@@ -13,8 +13,8 @@ const About = () => {
 			</p>
 
 			<p className="about__text-content">
-				Desde pequeño siempre me gustó la técnología, los celulares, los
-				videojuegos, las computadoras, fueron la motivación para elegir mi
+				Desde pequeño siempre me gustó la técnología, las computadoras, los
+				celulares, los videojuegos, fueron la motivación para elegir mi
 				vocación. Cuando llegué al instituto inició mi búsqueda por lo que me
 				apasionaba, pasando por muchas ramas de la informática encontré la{' '}
 				<span className="strong">programación</span>.
@@ -31,7 +31,7 @@ const About = () => {
 				la información y comunicaciones en{' '}
 				<span className="strong">Senati</span>, actualmente estudiante en{' '}
 				<span className="strong">Platzi</span> siguiendo una ruta de aprendizaje
-				constante con grandes habilidades sobretodo una que adquirí con el
+				constante con grandes habilidades entre ellas una que adquirí con el
 				tiempo, ser <span className="strong">autodidacta</span>.
 			</p>
 
