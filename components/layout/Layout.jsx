@@ -5,12 +5,14 @@ import Navbar from '../navbar/Navbar';
 
 const Layout = ({ children }) => {
 	return (
-		<div>
-			<Navbar />
-			<Description />
-			{children}
-			<Footer />
-		</div>
+		<>
+			<div>
+				<Navbar />
+				<Description />
+				{children}
+				<Footer />
+			</div>
+		</>
 	);
 };
 

@@ -14,18 +14,18 @@ const Footer = () => {
 
 			<ul className="footer__list">
 				<li className="link">
-					<Link href="/about">
-						<a>SOBRE MI</a>
+					<Link href="/">
+						<a>MI STACK</a>
 					</Link>
 				</li>
 				<li className="link">
-					<Link href="/">
+					<Link href="/projects">
 						<a>PROYECTOS</a>
 					</Link>
 				</li>
 				<li className="link">
-					<Link href="/">
-						<a>MI STACK</a>
+					<Link href="/about">
+						<a>SOBRE MI</a>
 					</Link>
 				</li>
 			</ul>

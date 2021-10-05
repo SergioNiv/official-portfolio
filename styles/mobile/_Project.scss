@@ -1,0 +1,97 @@
+.project__title {
+	width: 100%;
+	text-align: center;
+	margin-top: 6rem;
+	font-weight: 900;
+	color: $primary-color;
+	font-size: 2rem;
+}
+
+//CardProject
+
+.card__project {
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 4rem;
+	font-size: 1.4rem;
+	line-height: 2.2rem;
+	max-width: 40rem;
+
+	.card__project-img {
+		width: 100%;
+		display: flex;
+		margin: 0 auto;
+
+		.project__img {
+			width: 100%;
+			object-position: cover;
+			border-radius: 1rem;
+		}
+	}
+	.card__project-name {
+		font-size: 1.5rem;
+		color: $primary-color;
+		font-weight: 900;
+		margin-top: 4rem;
+	}
+
+	.description__project {
+		margin-top: 2rem;
+	}
+
+	.cad__project-subtitle {
+		margin-top: 2rem;
+		color: $primary-color;
+		font-weight: 900;
+		text-transform: uppercase;
+		font-size: 1.3rem;
+	}
+
+	.container__project-list {
+		margin-top: 2rem;
+	}
+
+	.project-link {
+		margin-left: 2rem;
+		list-style: circle;
+		margin-top: 1rem;
+	}
+
+	.mb-8 {
+		margin-bottom: 4rem;
+	}
+
+	.buttons__project {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 8rem;
+		cursor: pointer;
+
+		.show-project,
+		.show-respositorio {
+			width: 50%;
+			height: 4rem;
+			background-color: $secondary-color;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 5px;
+			border-radius: 6px;
+			color: $white-off;
+			font-weight: 800;
+			transition: background-color 0.3s;
+
+			.fa-github,
+			.fa-external-link-alt {
+				margin-left: 1rem;
+			}
+
+			&:hover {
+				transition: background-color 0.3s;
+				background-color: darken($color: $secondary-color, $amount: 4);
+			}
+		}
+	}
+}

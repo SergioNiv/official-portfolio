@@ -1,7 +1,12 @@
+.header__container {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+}
+
 .content-opacity {
 	width: 100%;
-	position: absolute;
-	/* height: 0; */
 	position: fixed;
 	top: 0;
 	background-color: rgba(0, 0, 0, 0.8);
@@ -22,15 +27,15 @@
 .nav__container {
 	width: 100%;
 	max-width: 80rem;
-	margin: 0 auto;
+	margin: 0rem auto;
 	position: relative;
 	height: 7rem;
 	overflow: hidden;
 	transition: all 0.5s;
-	position: fixed;
-	top: 0;
+	max-width: 80rem;
+	margin: 0 auto;
 	background-color: $black;
-	z-index: 2;
+	z-index: 3;
 
 	.bakcground__img {
 		width: 100%;
