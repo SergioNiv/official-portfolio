@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
 	return (
-		<div className="about">
+		<main className="about">
 			<h2 className="about__title">SOBRE MÍ 💻</h2>
 
 			<p className="about__text-content">
@@ -49,7 +49,7 @@ const About = () => {
 			<figure className="main__logo">
 				<img src="/View-opti.png" alt="" className="img" />
 			</figure>
-		</div>
+		</main>
 	);
 };
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Description = () => {
 	return (
-		<div className="main__presentation">
+		<aside className="main__presentation">
 			<figure className="container__img">
 				<img src="/img.jpg" alt="Sergio-Nivin-Perfil" className="main__img" />
 			</figure>
@@ -15,7 +15,7 @@ const Description = () => {
 					muchas ganas de aprender y compartir mis conocimientos contigo
 				</p>
 			</div>
-		</div>
+		</aside>
 	);
 };
 

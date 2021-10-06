@@ -27,13 +27,13 @@ const CardProject = () => {
 				<li className="project-link">
 					Estilos basados en componenetes con Sass, incluí la parte responsive
 					aplicando Mobile First como técnica de maquetación y la ayuda de Media
-					Querys, Flexbox, Grid, LightHouse para conseguir buenos resultados en
-					accesibilidad sin perder performance.
+					Querys, Flexbox, Grid, LightHouse para buenos resultados en
+					accesibilidad y performance.
 				</li>
 
 				<li className="project-link">
 					Para el manejo del estado global y la comunicación de componentes
-					utilicé Redux además de Redux-Thunk como middleware.
+					utilicé el patrón Redux además de Redux-Thunk como middleware.
 				</li>
 
 				<li className="project-link">

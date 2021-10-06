@@ -10,14 +10,14 @@ const Navbar = () => {
 	const handleCollapseMenu = () => setCollapseMenu(!collapseMenu);
 
 	return (
-		<>
+		<header>
 			<div className="header__container">
 				<div
 					className={`content-opacity ${collapseMenu && 'opacity-show'}`}
 					onClick={() => setCollapseMenu(false)}
 				></div>
 
-				<header className={`nav__container  ${collapseMenu && 'collapse'}`}>
+				<nav className={`nav__container  ${collapseMenu && 'collapse'}`}>
 					<figure
 						className={`bakcground__img ${
 							collapseMenu && 'bakcground__active'
@@ -26,7 +26,7 @@ const Navbar = () => {
 						<img src="/react-optimizado.jpg" alt="" className="b-img" />
 					</figure>
 
-					<nav className="navbar">
+					<div className="navbar">
 						<figure className="logo">
 							<Link href="/">
 								<a onClick={() => setCollapseMenu(false)}>
@@ -38,7 +38,7 @@ const Navbar = () => {
 							<i className="fas fa-bars"></i>
 							<span className="title">Menu</span>
 						</div>
-					</nav>
+					</div>
 					<ul className={`sub__menu ${collapseMenu && 'active-opacity'}`}>
 						<li className={`link ${collapseMenu && 'link-show'}`}>
 							<Link href="/">
@@ -88,10 +88,10 @@ const Navbar = () => {
 							</span>
 						</div>
 					</ul>
-				</header>
+				</nav>
 			</div>
 			<div className="content-null"></div>
-		</>
+		</header>
 	);
 };
 
