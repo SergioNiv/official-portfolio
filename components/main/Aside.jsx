@@ -15,17 +15,10 @@ const Aside = () => {
 				<a
 					href="https://www.linkedin.com/in/sergio-nivin"
 					className="aside-link"
-					target="_blank"
-					rel="noreferrer"
 				>
 					<i className="fab fa-linkedin"></i> Linkedin
 				</a>
-				<a
-					href="https://github.com/SergioNiv"
-					className="aside-link"
-					target="_blank"
-					rel="noreferrer"
-				>
+				<a href="https://github.com/SergioNiv" className="aside-link">
 					<i className="fab fa-github"></i> GitHub
 				</a>
 				<a href="/" className="aside-link">

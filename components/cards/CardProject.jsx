@@ -53,19 +53,12 @@ const CardProject = () => {
 			</ul>
 
 			<div className="buttons__project">
-				<a
-					href="https://mayra-app.netlify.app/"
-					target="_blank"
-					rel="noreferrer"
-					className="show-project"
-				>
+				<a href="https://mayra-app.netlify.app/" className="show-project">
 					Ir al proyecto <i className="fas fa-external-link-alt"></i>
 				</a>
 
 				<a
 					href="https://github.com/SergioNiv/store-app-development"
-					target="_blank"
-					rel="noreferrer"
 					className="show-respositorio"
 				>
 					Repositorio <i className="fab fa-github"></i>
