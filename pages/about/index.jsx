@@ -36,14 +36,16 @@ const About = () => {
 			</p>
 
 			<div className="buttons__cv">
-				<div className="show__cv">
+				<a className="show__cv" href="/sergionivin-cv.pdf" target="_blank">
 					<span className="text">Ver CV</span>
+
 					<i className="far fa-eye"></i>
-				</div>
-				<div className="download__cv">
+				</a>
+				<a className="download__cv" href="/sergionivin-cv.pdf" download>
 					<span className="text">Descargar CV</span>
+
 					<i className="fas fa-download"></i>
-				</div>
+				</a>
 			</div>
 
 			<figure className="main__logo">
