@@ -1,4 +1,4 @@
-$primary-color: #29abe2;
+$primary-color: #295ab5;
 $secondary-color: #0e8d67;
 $background-color: #282c34;
 $white-off: #f9f9f9;
@@ -31,5 +31,10 @@ li {
 	margin: 0;
 }
 
-//mobile stules
+//mobile styles
 @import './mobile.scss';
+
+//desktop stylus
+@media (min-width: 600px) {
+	@import './desktop.scss';
+}

@@ -1,0 +1,47 @@
+.aside {
+	display: block;
+	width: 20%;
+	background-color: $secondary-color;
+	border-radius: 6px;
+	font-size: 1.4rem;
+	line-height: 2.5rem;
+	min-width: 200px;
+	margin-left: 1rem;
+	position: sticky;
+	top: 14rem;
+	height: 48rem;
+	margin-bottom: 10rem;
+
+	.aside__description {
+		width: 85%;
+		margin: 0 auto;
+		padding-top: 2rem;
+		line-height: 2.5rem;
+	}
+
+	.aside__contact {
+		width: 85%;
+		margin: 0 auto;
+		margin-top: 2rem;
+
+		.aside__subtitle {
+			font-weight: 900;
+		}
+		.aside-link {
+			margin-top: 1rem;
+			display: block;
+			font-weight: 600;
+			color: $white-off;
+
+			.fab {
+				margin-right: 1rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.aside {
+		display: none;
+	}
+}
