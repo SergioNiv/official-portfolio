@@ -34,7 +34,7 @@ const Footer = () => {
 
 			<div className="footer__socials">
 				<span className="socials__container">
-					<a href="https://www.linkedin.com/in/sergio-nivin" target="_blank">
+					<a href="https://www.linkedin.com/in/sergio-nivin">
 						<i className="fab fa-linkedin"></i>
 					</a>
 				</span>
