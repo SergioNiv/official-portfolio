@@ -27,8 +27,8 @@ const CardProject = () => {
 				<li className="project-link">
 					Estilos basados en componenetes con Sass, incluí la parte responsive
 					aplicando Mobile First como técnica de maquetación y la ayuda de Media
-					Querys, Flexbox, Grid, LightHouse para buenos resultados en
-					accesibilidad y performance.
+					Querys, Flexbox, Grid, LightHouse para buenos resultados de
+					performance.
 				</li>
 
 				<li className="project-link">
@@ -44,7 +44,7 @@ const CardProject = () => {
 
 				<li className="project-link">
 					Integración de pasarela de pagos con Paypal Developer y protección de
-					datos con Dotenv para las variables de entorno.
+					datos con Dotenv.
 				</li>
 
 				<li className="project-link mb-8">

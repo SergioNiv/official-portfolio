@@ -2,7 +2,7 @@ import React from 'react';
 
 const Stack = () => {
 	return (
-		<main className="container__technologies">
+		<main className="container__technologies" id="myDiv">
 			<h2 className="main__subtitle">Stack de Técnologías</h2>
 			<section className="grid__technologies">
 				<figure className="grid__item">

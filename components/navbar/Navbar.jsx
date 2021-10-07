@@ -34,6 +34,42 @@ const Navbar = () => {
 								</a>
 							</Link>
 						</figure>
+
+						<ul className="menu__desktop">
+							<li>
+								<Link href="/">
+									<a
+										className={`menu__desktop-link ${
+											pathname == '/' && 'menu__desktop-active'
+										}`}
+									>
+										MI STACK
+									</a>
+								</Link>
+							</li>
+							<li>
+								<Link href="/projects">
+									<a
+										className={`menu__desktop-link ${
+											pathname == '/projects' && 'menu__desktop-active'
+										}`}
+									>
+										PROYECTOS
+									</a>
+								</Link>
+							</li>
+							<li>
+								<Link href="/about">
+									<a
+										className={`menu__desktop-link ${
+											pathname == '/about' && 'menu__desktop-active'
+										}`}
+									>
+										SOBRE MI
+									</a>
+								</Link>
+							</li>
+						</ul>
 						<div className="menu" onClick={handleCollapseMenu}>
 							<i className="fas fa-bars"></i>
 							<span className="title">Menu</span>

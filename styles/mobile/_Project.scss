@@ -3,7 +3,7 @@
 	text-align: center;
 	margin-top: 6rem;
 	font-weight: 900;
-	color: $primary-color;
+	color: $secondary-color;
 	font-size: 2rem;
 }
 
@@ -30,7 +30,7 @@
 	}
 	.card__project-name {
 		font-size: 1.5rem;
-		color: $primary-color;
+		color: $secondary-color;
 		font-weight: 900;
 		margin-top: 4rem;
 	}
@@ -41,7 +41,7 @@
 
 	.cad__project-subtitle {
 		margin-top: 2rem;
-		color: $primary-color;
+		color: $secondary-color;
 		font-weight: 900;
 		text-transform: uppercase;
 		font-size: 1.3rem;
@@ -66,7 +66,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin-bottom: 8rem;
+		margin-bottom: 12rem;
 		cursor: pointer;
 
 		.show-project,

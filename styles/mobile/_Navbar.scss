@@ -104,6 +104,11 @@
 				cursor: pointer;
 			}
 		}
+		@media (max-width: 600px) {
+			.menu__desktop {
+				display: none;
+			}
+		}
 	}
 
 	.sub__menu {
