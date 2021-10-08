@@ -9,7 +9,7 @@ const Description = () => {
 			className="main__description"
 			style={{ display: pathname === '/projects' ? 'none' : '' }}
 		>
-			<figure className="container__img">
+			<figure className={`container__img ${pathname === '/' && 'none-home'}`}>
 				<img src="/img.jpg" alt="Sergio-Nivin-Perfil" className="main__img" />
 			</figure>
 
