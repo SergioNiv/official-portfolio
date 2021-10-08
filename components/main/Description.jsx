@@ -15,10 +15,11 @@ const Description = () => {
 
 			<div className="main__introduction">
 				<h1 className="main__title">Sergio Nivin 💻</h1>
+
 				<p className="main__text">
 					<span className="subtitle">Desarrollador frontend.</span>
 					<span className="weight">Apasionado por la tecnología</span> con
-					muchas ganas de aprender y compartir mis conocimientos contigo
+					muchas ganas de aprender y compartir mis conocimientos con ustedes
 				</p>
 			</div>
 		</div>
