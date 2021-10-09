@@ -6,7 +6,7 @@ const Description = () => {
 
 	return (
 		<div
-			className="main__description"
+			className="main__description animate__animated animate__fadeIn animate__faster"
 			style={{ display: pathname === '/projects' ? 'none' : '' }}
 		>
 			<figure className={`container__img ${pathname === '/' && 'none-home'}`}>

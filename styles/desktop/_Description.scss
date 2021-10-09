@@ -3,8 +3,7 @@
 
 	.container__img {
 		width: 100%;
-		max-width: 80rem;
-		padding: 2rem;
+		/* 	max-width: 80rem; */
 
 		.main__img {
 			margin: 0 auto;
@@ -21,18 +20,21 @@
 		position: relative;
 
 		.container__img {
-			max-width: 70rem;
+			/* max-width: 70rem; */
+			background-color: red;
 
 			.main__img {
-				width: 60%;
-				margin: 1rem;
+				width: 100%;
 			}
 		}
 
 		.main__introduction {
 			margin-top: 0rem;
 			position: absolute;
-			left: 50%;
+			left: 65%;
+			top: 5rem;
+			max-width: 28rem;
+			min-width: 0px;
 		}
 	}
 }

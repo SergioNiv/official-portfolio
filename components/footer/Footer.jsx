@@ -37,17 +37,17 @@ const Footer = () => {
 
 				<div className="footer__socials">
 					<span className="socials__container">
-						<a href="https://www.linkedin.com/in/sergio-nivin">
+						<a href="https://www.linkedin.com/in/sergio-nivin" target="_blank">
 							<i className="fab fa-linkedin"></i>
 						</a>
 					</span>
 					<span className="socials__container">
-						<a href="">
+						<a href="https://github.com/SergioNiv" target="_blank">
 							<i className="fab fa-github"></i>
 						</a>
 					</span>
 					<span className="socials__container">
-						<a href="">
+						<a href="https://api.whatsapp.com/send?phone=51961441869&text=Hola!%20un%20gusto%20conocerte,%20">
 							<i className="fab fa-whatsapp-square"></i>
 						</a>
 					</span>
@@ -85,8 +85,14 @@ const Footer = () => {
 					>
 						<i className="fab fa-github"></i> GitHub
 					</a>
-					<a href="/" className="aside-link">
+					<a
+						href="https://api.whatsapp.com/send?phone=51961441869&text=Hola!%20un%20gusto%20conocerte,%20"
+						className="aside-link"
+					>
 						<i className="fab fa-whatsapp"></i> WhatsApp
+					</a>
+					<a href="/sergionivin-cv.pdf" download className="aside-link">
+						<i className="fas fa-download"></i> Descargar CV
 					</a>
 				</div>
 			</div>

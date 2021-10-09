@@ -2,7 +2,7 @@ import React from 'react';
 
 const Stack = () => {
 	return (
-		<main className="container__technologies" id="myDiv">
+		<main className="container__technologies animate__animated animate__fadeIn animate__faster">
 			<h2 className="main__subtitle">Stack de Técnologías</h2>
 			<section className="grid__technologies">
 				<figure className="grid__item">

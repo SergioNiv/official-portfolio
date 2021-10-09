@@ -30,7 +30,7 @@ const Navbar = () => {
 						<figure className="logo">
 							<Link href="/">
 								<a onClick={() => setCollapseMenu(false)}>
-									<img src="/View-opti.png" alt="" className="img" />
+									<img src="/1b.png" alt="" className="img" />
 								</a>
 							</Link>
 						</figure>
@@ -113,12 +113,15 @@ const Navbar = () => {
 
 						<div className="icon__socials">
 							<span className="socials__container">
-								<a href="">
+								<a
+									href="https://www.linkedin.com/in/sergio-nivin"
+									target="_blank"
+								>
 									<i className="fab fa-linkedin"></i>
 								</a>
 							</span>
 							<span className="socials__container">
-								<a href="">
+								<a href="https://github.com/SergioNiv" target="_blank">
 									<i className="fab fa-github"></i>
 								</a>
 							</span>

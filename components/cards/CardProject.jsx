@@ -3,9 +3,15 @@ import React from 'react';
 const CardProject = () => {
 	return (
 		<div className="card__project">
-			<figure className="card__project-img">
-				<img className="project__img" src="/technologies/project1.jpg" alt="" />
-			</figure>
+			<a href="https://mayra-app.netlify.app/" target="_blank">
+				<figure className="card__project-img">
+					<img
+						className="project__img"
+						src="/technologies/project1.jpg"
+						alt=""
+					/>
+				</figure>
+			</a>
 
 			<h3 className="card__project-name">E - COMMERCE MODA</h3>
 
@@ -53,12 +59,17 @@ const CardProject = () => {
 			</ul>
 
 			<div className="buttons__project">
-				<a href="https://mayra-app.netlify.app/" className="show-project">
-					Ir al proyecto <i className="fas fa-external-link-alt"></i>
+				<a
+					href="https://mayra-app.netlify.app/"
+					target="_blank"
+					className="show-project"
+				>
+					Visitar sitio <i className="fas fa-external-link-alt"></i>
 				</a>
 
 				<a
 					href="https://github.com/SergioNiv/store-app-development"
+					target="_blank"
 					className="show-respositorio"
 				>
 					Repositorio <i className="fab fa-github"></i>

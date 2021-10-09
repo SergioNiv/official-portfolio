@@ -9,7 +9,7 @@
 	margin-left: 1rem;
 	position: sticky;
 	top: 14rem;
-	height: 48rem;
+	height: 49rem;
 	margin-bottom: 10rem;
 
 	.aside__description {
@@ -37,7 +37,8 @@
 			background-color: darken($color: $secondary-color, $amount: 4);
 			color: $white-off;
 
-			.fab {
+			.fab,
+			.fas {
 				margin-right: 1rem;
 			}
 		}
@@ -47,5 +48,11 @@
 @media (max-width: 600px) {
 	.aside {
 		display: none;
+	}
+}
+
+@media (max-width: 1100px) {
+	.aside {
+		height: 52rem;
 	}
 }

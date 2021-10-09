@@ -26,6 +26,7 @@
 
 	.main__introduction {
 		width: 80%;
+		margin: 0 auto;
 		margin-top: 5rem;
 		background-color: $secondary-color;
 		border-radius: 1.2rem;
@@ -34,7 +35,7 @@
 		justify-content: center;
 		padding: 2rem;
 		max-width: 40rem;
-		min-width: 320px;
+		min-width: 300px;
 
 		.main__title {
 			font-weight: 900;

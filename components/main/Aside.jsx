@@ -26,8 +26,14 @@ const Aside = () => {
 				>
 					<i className="fab fa-github"></i> GitHub
 				</a>
-				<a href="/" className="aside-link">
+				<a
+					href="https://api.whatsapp.com/send?phone=51961441869&text=Hola!%20un%20gusto%20conocerte,%20"
+					className="aside-link"
+				>
 					<i className="fab fa-whatsapp"></i> WhatsApp
+				</a>
+				<a href="/sergionivin-cv.pdf" download className="aside-link">
+					<i className="fas fa-download"></i> Descargar CV
 				</a>
 			</div>
 		</aside>
