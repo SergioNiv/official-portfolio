@@ -1,7 +1,6 @@
 import React from 'react';
 import Footer from '../footer/Footer';
 import Aside from '../main/Aside';
-import Description from '../main/Description';
 import Navbar from '../navbar/Navbar';
 
 const Layout = ({ children }) => {
@@ -10,11 +9,7 @@ const Layout = ({ children }) => {
 			<Navbar />
 			<main className="main">
 				<Aside />
-
-				<section className="section__content">
-					<Description />
-					{children}
-				</section>
+				<section className="section__content">{children}</section>
 			</main>
 			<Footer />
 

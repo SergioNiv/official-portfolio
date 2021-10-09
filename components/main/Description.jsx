@@ -5,10 +5,7 @@ const Description = () => {
 	const { pathname } = useRouter();
 
 	return (
-		<div
-			className="main__description animate__animated animate__fadeIn animate__faster"
-			style={{ display: pathname === '/projects' ? 'none' : '' }}
-		>
+		<div className="main__description animate__animated animate__fadeIn animate__faster">
 			<figure className={`container__img ${pathname === '/' && 'none-home'}`}>
 				<img src="/img.jpg" alt="Sergio-Nivin-Perfil" className="main__img" />
 			</figure>
