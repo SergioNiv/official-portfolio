@@ -6,9 +6,10 @@ const Aside = () => {
 			<p className="aside__description">
 				Soy desarrollador de software especializado en Frontend con experiencia
 				en el ecosistema de <span className="strong"> React</span> y conocedor
-				de metodologías ágiles <span className="strong">Scrum</span>, Kanban
-				para la construcción de productos. Busco trabajar en proyectos
-				desafiantes ofreciendo mi experiencia y compromiso.
+				de metodologías ágiles <span className="strong">Scrum</span>,{' '}
+				<span className="strong">Kanban</span> para la construcción de
+				productos. Busco trabajar en proyectos desafiantes ofreciendo mi
+				experiencia y compromiso.
 			</p>
 			<div className="aside__contact">
 				<p className="aside__subtitle">Encuentrame en</p>
