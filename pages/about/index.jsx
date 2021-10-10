@@ -7,7 +7,9 @@ const About = () => {
 			<Description />
 
 			<section className="about animate__animated animate__fadeIn animate__faster">
-				<h2 className="about__title">SOBRE MÍ 💻</h2>
+				<h2 className="about__title">
+					SOBRE MÍ <span className="write">✍🏼</span>
+				</h2>
 
 				<p className="about__text-content">
 					Creo que cuando una persona desea con todas sus fuerzas crecer

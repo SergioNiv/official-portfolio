@@ -11,6 +11,11 @@
 		width: 80%;
 		display: flex;
 		max-width: 36rem;
+		padding: 2rem;
+		border: inset 4px $secondary-color;
+		border-radius: 10%;
+		border-bottom-right-radius: 50%;
+		border-top-right-radius: 50%;
 
 		.main__img {
 			width: 100%;
@@ -38,7 +43,7 @@
 		padding: 2rem;
 		max-width: 40rem;
 		min-width: 300px;
-		background-color: rgba($color: $secondary-color, $alpha: 0.7);
+		background-color: rgba($color: $secondary-color, $alpha: 0.8);
 
 		.main__title {
 			font-weight: 900;

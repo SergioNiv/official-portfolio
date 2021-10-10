@@ -10,6 +10,11 @@
 		font-size: 2rem;
 		font-weight: 900;
 		color: $secondary-color;
+
+		.write {
+			position: relative;
+			bottom: 3.5px;
+		}
 	}
 
 	.about__text-content {
