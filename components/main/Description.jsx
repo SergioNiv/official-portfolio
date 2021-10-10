@@ -7,7 +7,7 @@ const Description = () => {
 	return (
 		<div className="main__description animate__animated animate__fadeIn animate__faster">
 			<figure className={`container__img ${pathname === '/' && 'none-home'}`}>
-				<img src="/img.jpg" alt="Sergio-Nivin-Perfil" className="main__img" />
+				<img src="/about.jpg" alt="Sergio-Nivin-Perfil" className="main__img" />
 			</figure>
 
 			<div className="main__introduction">
