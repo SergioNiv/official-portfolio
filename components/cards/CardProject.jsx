@@ -16,7 +16,7 @@ const CardProject = () => {
 			<h3 className="card__project-name">E - COMMERCE MODA</h3>
 
 			<p className="description__project">
-				Proyecto personal de apoyo a un enprendimiento dónde se resolvieron las
+				Proyecto personal de apoyo a un emprendimiento dónde se resolvieron las
 				necesidades de incrementar visitas, ventas, posicionamiento de la marca
 				y administración de ventas online.
 			</p>
@@ -44,8 +44,8 @@ const CardProject = () => {
 
 				<li className="project-link">
 					Como servicio serverless implementé Firebase / Firestore para la
-					autenticación de usuarios utilizando FetchAPI, incluye persistencia de
-					datos en LocalStorage.
+					autenticación de usuarios, incluye persistencia de datos en
+					LocalStorage.
 				</li>
 
 				<li className="project-link">
