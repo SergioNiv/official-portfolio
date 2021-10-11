@@ -35,7 +35,7 @@ const Stack = () => {
 					<figure className="grid__item">
 						<img
 							className="item-img"
-							src="/technologies/redux.png"
+							src="/technologies/patron.png"
 							alt="Redux"
 						/>
 						<figcaption className="img-alt">Redux</figcaption>
