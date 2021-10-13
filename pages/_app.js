@@ -25,6 +25,12 @@ function MyApp({ Component, pageProps }) {
 					rel="stylesheet"
 					href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 				/>
+				<script
+					src="https://platform.linkedin.com/badges/js/profile.js"
+					async
+					defer
+					type="text/javascript"
+				></script>
 			</Head>
 			<Layout>
 				<Component {...pageProps} />

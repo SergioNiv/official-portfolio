@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
 
 				@media (min-width: 600px) {
 					.section__content {
-						width: 80%;
+						width: 72%;
 					}
 				}
 			`}</style>

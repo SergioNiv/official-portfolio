@@ -15,10 +15,8 @@ const Description = () => {
 
 				<p className="main__text">
 					<span className="subtitle">Desarrollador frontend</span>
-					<span className="weight">
-						Apasionado por las tecnologías de la información
-					</span>{' '}
-					con muchas ganas de aprender y compartir mis conocimientos contigo
+					<span className="weight">Apasionado por la programación 💚</span> con
+					muchas ganas de aprender y compartir mis conocimientos contigo
 				</p>
 			</div>
 		</div>

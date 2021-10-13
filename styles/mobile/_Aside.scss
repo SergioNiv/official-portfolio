@@ -1,58 +1,203 @@
 .aside {
 	display: block;
-	width: 20%;
-	background-color: $secondary-color;
+	width: 27%;
+	background-color: rgba($color: $secondary-color, $alpha: 0.8);
 	border-radius: 6px;
 	font-size: 1.3rem;
 	line-height: 2.5rem;
 	min-width: 200px;
 	margin-left: 1rem;
 	position: sticky;
-	top: 14rem;
-	height: 49rem;
+	top: 12rem;
+	max-height: 62rem;
 	margin-bottom: 10rem;
 
 	.aside__description {
-		width: 85%;
+		width: 90%;
 		margin: 0 auto;
 		padding-top: 2rem;
 		line-height: 2.5rem;
 	}
 
 	.aside__contact {
-		width: 85%;
+		width: 90%;
 		margin: 0 auto;
 		margin-top: 2rem;
 
 		.aside__subtitle {
+			width: 100%;
+			margin: 0 auto;
 			font-weight: 900;
 		}
-		.aside-link {
-			margin-top: 1rem;
-			display: block;
-			border-radius: 6px;
-			display: flex;
-			align-items: center;
-			padding-left: 0.5rem;
-			background-color: darken($color: $secondary-color, $amount: 4);
-			color: $white-off;
 
-			.fab,
-			.fas {
-				margin-right: 1rem;
+		.linkedin {
+			width: 100%;
+			background-color: $black;
+			border-top-left-radius: 1rem;
+			border-top-right-radius: 1rem;
+			padding-bottom: 2rem;
+			margin-top: 2rem;
+
+			.linkedin__title {
+				width: 100%;
+				padding-left: 1rem;
+				height: 4rem;
+				display: flex;
+				align-items: center;
+				background-color: #38434f;
+				border-top-left-radius: 8px;
+				border-top-right-radius: 8px;
+				font-size: 1.6rem;
+
+				.fab {
+					margin-left: 0.3rem;
+					font-size: 2rem;
+				}
+			}
+			.linkedin__photo {
+				width: 90%;
+				margin: 0 auto;
+				display: flex;
+				height: 5.5rem;
+				margin-top: 1.5rem;
+
+				.photo {
+					width: 24%;
+					object-fit: cover;
+					border-radius: 50%;
+					object-position: top;
+				}
+			}
+			.linkedin-name {
+				width: 90%;
+				margin: 0 auto;
+				display: block;
+				margin-top: 1rem;
+				font-weight: 600;
+
+				a {
+					color: $white-off;
+					transition: text-decoration 0.3s;
+
+					&:hover {
+						transition: text-decoration 0.3s;
+						text-decoration: underline;
+					}
+				}
+			}
+			.linkedin-titular {
+				width: 90%;
+				margin: 0 auto;
+			}
+			.study {
+				display: block;
+				width: 90%;
+				margin: 0 auto;
+				font-size: 1rem;
+				transition: text-decoration 0.3s;
+
+				&:hover {
+					transition: text-decoration 0.3s;
+					text-decoration: underline;
+				}
+				a {
+					color: $white-off;
+				}
+			}
+
+			.button-profile {
+				width: 8.5rem;
+				border-radius: 1.4rem;
+				border: solid 1px $white-off;
+				cursor: pointer;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-left: 1rem;
+				margin-top: 0.5rem;
+				transition: border 0.3s;
+				height: 3rem;
+				color: $white-off;
+
+				&:hover {
+					transition: border 0.3s;
+					border: solid 2.6px $white-off;
+				}
+			}
+		}
+
+		.link-container {
+			width: 100%;
+			background-color: $black;
+			border-bottom-left-radius: 1rem;
+			border-bottom-right-radius: 1rem;
+			padding-bottom: 1rem;
+			border-radius: 1rem;
+			/* padding-bottom: 0.5rem;
+			padding-top: 0.5rem; */
+
+			.aside-link {
+				width: 90%;
+				margin: 0 auto;
+				display: flex;
+				align-items: center;
+				padding-left: 0.5rem;
+				height: 3.5rem;
+
+				.fab,
+				.fas {
+					margin-right: 1rem;
+				}
+
+				a {
+					color: $white-off;
+					transition: text-decoration 0.3s;
+
+					&:hover {
+						transition: text-decoration 0.3s;
+						text-decoration: underline;
+					}
+				}
 			}
 		}
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 	.aside {
 		display: none;
 	}
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
 	.aside {
-		height: 52rem;
+		max-height: 48rem;
+
+		.aside__contact {
+			.collaps {
+				display: none;
+			}
+
+			.link-container {
+				margin-top: 1rem;
+				padding-top: 1rem;
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.aside {
+		.aside__contact {
+			.link-container {
+				border-radius: 0px;
+				border-bottom-left-radius: 1rem;
+				border-bottom-right-radius: 1rem;
+
+				.collaps-link {
+					display: none;
+				}
+			}
+		}
 	}
 }
