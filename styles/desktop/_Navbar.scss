@@ -17,16 +17,27 @@
 				font-size: 1.6rem;
 				font-weight: 900;
 				margin: 0 2rem;
-				transition: color 0.3s;
+				transition: color 0.5s, background-size 0.5s;
+
+				background: linear-gradient(
+					currentColor,
+					currentColor
+				); /*hover, pone de background el color que se le asigne al contenedor*/
+				background-position: 0% 100%;
+				background-repeat: no-repeat;
+				background-size: 0% 2px;
 
 				&:hover {
-					transition: color 0.3s;
+					transition: color 0.5s, background-size 0.5s;
 					color: darken($color: $secondary-color, $amount: 8);
+
+					background-size: 50% 2px;
 				}
 			}
 
 			.menu__desktop-active {
 				color: darken($color: $secondary-color, $amount: 8);
+				background-size: 50% 2px;
 			}
 			.mr-2 {
 				padding-right: 0.6rem;
