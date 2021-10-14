@@ -1,0 +1,64 @@
+[
+	{
+		"id": "01",
+		"title": "E - COMMERCE MODA",
+		"description": "Proyecto personal de apoyo a un emprendimiento dónde se resolvieron las necesidades de incrementar visitas, ventas, posicionamiento de la marca y administración de ventas online.",
+		"listImplement": [
+			{
+				"name": "L1",
+				"item": "Desarrollo de la interfaz con HTML5, Sass /SCSS y React Hooks con funcional components, incluye validación de formularios, paginación, protección de rutas, Query String."
+			},
+
+			{
+				"name": "L2",
+				"item": "Estilos basados en componenetes con Sass, incluí la parte responsive aplicando Mobile First como técnica de maquetación y la ayuda de Media Querys, Flexbox, Grid, LightHouse para buenos resultados de performance."
+			},
+
+			{
+				"name": "L3",
+				"item": "Para el manejo del estado global y la comunicación de componentes utilicé el patrón Redux además de Redux-Thunk como middleware."
+			},
+
+			{
+				"name": "L4",
+				"item": "Como servicio serverless implementé Firebase / Firestore para la autenticación de usuarios, incluye persistencia de datos en LocalStorage."
+			},
+
+			{
+				"name": "L5",
+				"item": "Integración de pasarela de pagos con Paypal Developer y protección de datos con Dotenv."
+			},
+
+			{
+				"name": "L6",
+				"item": "Deploy de la aplicación en Netlify."
+			}
+		],
+		"img": "/technologies/project1.jpg",
+		"urlProject": "https://mayra-app.netlify.app/",
+		"urlRepo": "https://github.com/SergioNiv/store-app-development"
+	},
+	{
+		"id": "02",
+		"title": "FAST FOOD",
+		"description": "Proyecto personal, landing page para el posicionamiento de marca, visualización de productos y contacto con clientes.",
+		"listImplement": [
+			{
+				"name": "L1",
+				"item": "Página stática, contruida con las ténologías base, HTML, CSS, Javascript vanilla."
+			},
+			{
+				"name": "L2",
+				"item": "Sitio responsive, adaptable a cualquier dispositivo móvil, integra FlexBox, Grid y Media Querys."
+			},
+
+			{
+				"name": "L3",
+				"item": "Se implemento Mobile First como técnica de maquetación, y la métodología BEM para la composición de clases en los estilos. "
+			}
+		],
+		"img": "/technologies/project2.jpg",
+		"urlProject": "https://sergioniv.github.io/comida-rapida/",
+		"urlRepo": "https://github.com/SergioNiv/store-app-development"
+	}
+]

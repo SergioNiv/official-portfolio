@@ -1,3 +1,7 @@
+.content-opacity {
+	display: none;
+}
+
 .nav__container {
 	.bakcground__img {
 		display: none;
@@ -44,4 +48,11 @@
 			}
 		}
 	}
+
+	.sub__menu {
+		display: none;
+	}
+}
+.collapse {
+	height: 7rem;
 }

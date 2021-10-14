@@ -1,77 +1,42 @@
 import React from 'react';
 
-const CardProject = () => {
+const CardProject = ({
+	id,
+	title,
+	description,
+	listImplement,
+	img,
+	urlProject,
+	urlRepo,
+}) => {
 	return (
 		<div className="card__project">
-			<a href="https://mayra-app.netlify.app/" target="_blank">
+			<a href={urlProject} target="_blank">
 				<figure className="card__project-img">
-					<img
-						className="project__img"
-						src="/technologies/project1.jpg"
-						alt=""
-					/>
+					<img className="project__img" src={img} alt={title} />
 				</figure>
 			</a>
 
-			<h3 className="card__project-name">E - COMMERCE MODA</h3>
+			<h3 className="card__project-name">{title}</h3>
 
-			<p className="description__project">
-				Proyecto personal de apoyo a un emprendimiento dónde se resolvieron las
-				necesidades de incrementar visitas, ventas, posicionamiento de la marca
-				y administración de ventas online.
-			</p>
+			<p className="description__project">{description}</p>
 
 			<p className="cad__project-subtitle">Tecnologías e implementación</p>
 
 			<ul className="container__project-list">
-				<li className="project-link">
-					Desarrollo de la interfaz con HTML5, Sass /SCSS y React Hooks con
-					funcional components, incluye validación de formularios, paginación,
-					protección de rutas, Query String.
-				</li>
-
-				<li className="project-link">
-					Estilos basados en componenetes con Sass, incluí la parte responsive
-					aplicando Mobile First como técnica de maquetación y la ayuda de Media
-					Querys, Flexbox, Grid, LightHouse para buenos resultados de
-					performance.
-				</li>
-
-				<li className="project-link">
-					Para el manejo del estado global y la comunicación de componentes
-					utilicé el patrón Redux además de Redux-Thunk como middleware.
-				</li>
-
-				<li className="project-link">
-					Como servicio serverless implementé Firebase / Firestore para la
-					autenticación de usuarios, incluye persistencia de datos en
-					LocalStorage.
-				</li>
-
-				<li className="project-link">
-					Integración de pasarela de pagos con Paypal Developer y protección de
-					datos con Dotenv.
-				</li>
-
-				<li className="project-link mb-8">
-					Deploy de la aplicación en Netlify.
-				</li>
+				{listImplement.map((list) => (
+					<li key={list.name} className="project-link">
+						{list.item}
+					</li>
+				))}
 			</ul>
 
 			<div className="buttons__project">
-				<a
-					href="https://mayra-app.netlify.app/"
-					target="_blank"
-					className="show-project"
-				>
+				<a href={urlProject} target="_blank" className="show-project">
 					Visitar sitio <i className="fas fa-external-link-alt"></i>
 				</a>
 
-				<a
-					href="https://github.com/SergioNiv/store-app-development"
-					target="_blank"
-					className="show-respositorio"
-				>
+				<a href={urlRepo} target="_blank" className="show-respositorio">
 					Repositorio <i className="fab fa-github"></i>
 				</a>
 			</div>

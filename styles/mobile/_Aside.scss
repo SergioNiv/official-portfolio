@@ -97,12 +97,13 @@
 				font-size: 1rem;
 				transition: text-decoration 0.3s;
 
-				&:hover {
-					transition: text-decoration 0.3s;
-					text-decoration: underline;
-				}
 				a {
 					color: $white-off;
+
+					&:hover {
+						transition: text-decoration 0.3s;
+						text-decoration: underline;
+					}
 				}
 			}
 
