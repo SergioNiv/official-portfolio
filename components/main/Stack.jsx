@@ -10,27 +10,27 @@ const Stack = () => {
 				<section className="grid__technologies">
 					<figure className="grid__item">
 						<i className="fab fa-html5"></i>
-						<figcaption className="img-alt">Html</figcaption>
+						<figcaption className="img-alt">Html - Avanzado</figcaption>
 					</figure>
 					<figure className="grid__item">
 						<i className="fab fa-css3-alt"></i>
-						<figcaption className="img-alt">Css</figcaption>
+						<figcaption className="img-alt">Css - Avanzado</figcaption>
 					</figure>
 					<figure className="grid__item">
 						<i className="fab fa-bootstrap"></i>
-						<figcaption className="img-alt">Boostrap</figcaption>
+						<figcaption className="img-alt">Boostrap - Avanzado</figcaption>
 					</figure>
 					<figure className="grid__item">
 						<i className="fab fa-sass"></i>
-						<figcaption className="img-alt">Sass / scss</figcaption>
+						<figcaption className="img-alt">Sass / scss - Avanzado</figcaption>
 					</figure>
 					<figure className="grid__item">
 						<i className="fab fa-js"></i>
-						<figcaption className="img-alt">Javascript</figcaption>
+						<figcaption className="img-alt">Javascript - Avanzado</figcaption>
 					</figure>
 					<figure className="grid__item">
 						<i className="fab fa-react"></i>
-						<figcaption className="img-alt">React</figcaption>
+						<figcaption className="img-alt">React - Avanzado</figcaption>
 					</figure>
 					<figure className="grid__item">
 						<img
@@ -38,7 +38,7 @@ const Stack = () => {
 							src="/technologies/patron.png"
 							alt="Redux"
 						/>
-						<figcaption className="img-alt">Redux</figcaption>
+						<figcaption className="img-alt">Redux - Avanzado</figcaption>
 					</figure>
 					<figure className="grid__item">
 						<img
@@ -46,11 +46,11 @@ const Stack = () => {
 							src="/technologies/typescript.png"
 							alt="Typescript"
 						/>
-						<figcaption className="img-alt">Typescript</figcaption>
+						<figcaption className="img-alt">Typescript - Intermedio</figcaption>
 					</figure>
 					<figure className="grid__item">
 						<i className="fab fa-neos"></i>
-						<figcaption className="img-alt">NextJs</figcaption>
+						<figcaption className="img-alt">NextJs - Intermedio</figcaption>
 					</figure>
 				</section>
 				<p className="technologies__text">
@@ -68,7 +68,7 @@ const Stack = () => {
 							className="jest__img"
 							alt="jest"
 						/>
-						<figcaption className="jest__title">Jest</figcaption>
+						<figcaption className="jest__title">Jest - Intermedio</figcaption>
 					</figure>
 					<figure className="enzyme">
 						<img
@@ -76,7 +76,9 @@ const Stack = () => {
 							alt="enzyme"
 							className="enzyme__img"
 						/>
-						<figcaption className="enzyme__title">Enzyme</figcaption>
+						<figcaption className="enzyme__title">
+							Enzyme - Intermedio
+						</figcaption>
 					</figure>
 				</section>
 
@@ -111,7 +113,7 @@ const Stack = () => {
 				<section className="tools">
 					<figure className="tools__item">
 						<i className="fab fa-aws"></i>
-						<figcaption className="tools-alt">Amazon Web Services</figcaption>
+						<figcaption className="tools-alt">Lambda</figcaption>
 					</figure>
 					<figure className="tools__item">
 						<i className="fab fa-atlassian"></i>
