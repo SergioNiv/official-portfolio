@@ -28,8 +28,8 @@ export default function Header() {
 				images: [
 					{
 						url: ogImageURL,
-						width: 630,
-						height: 630,
+						width: 130,
+						height: 130,
 						alt: 'SergioNivin.website - Mi portafolio',
 					},
 				],
