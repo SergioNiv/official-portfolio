@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
 				<meta
 					name="description"
 					content="Sergio Daniel Nivin Huari | 
-					Portafolio | Desarrollador de Software | Frontend Developer | Mobile Developer | Desarrollo Web "
+					Portafolio | Desarrollador de Software | Front-End Developer | Mobile Developer | Desarrollo Web | JavaScript | TypeScript | React | Web | sergionivin.website"
 				/>
 				<link rel="icon" href="/1b.png" />
 				<link
