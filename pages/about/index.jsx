@@ -1,5 +1,6 @@
 import React from 'react';
 import Description from '../../components/main/Description';
+import Image from 'next/image';
 
 const About = () => {
 	return (
@@ -57,7 +58,13 @@ const About = () => {
 				</div>
 
 				<figure className="main__logo">
-					<img src="/2b.png" alt="" className="img" />
+					<Image
+						src="/2b.png"
+						alt=""
+						className="img animate__animated animate__fadeIn animate__faster"
+						width={134}
+						height={117}
+					/>
 				</figure>
 			</section>
 		</div>

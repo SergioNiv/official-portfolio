@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/dist/client/router';
 
 const Navbar = () => {
@@ -30,7 +31,13 @@ const Navbar = () => {
 						<figure className="logo">
 							<Link href="/">
 								<a onClick={() => setCollapseMenu(false)}>
-									<img src="/1b.png" alt="" className="img" />
+									<Image
+										src="/1b.png"
+										alt=""
+										className="img"
+										width={50}
+										height={50}
+									/>
 								</a>
 							</Link>
 						</figure>

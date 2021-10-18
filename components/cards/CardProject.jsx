@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const CardProject = ({
 	id,
@@ -13,7 +14,13 @@ const CardProject = ({
 		<div className="card__project">
 			<a href={urlProject} target="_blank">
 				<figure className="card__project-img">
-					<img className="project__img" src={img} alt={title} />
+					<Image
+						className="project__img"
+						src={img}
+						alt={title}
+						width={400}
+						height={230}
+					/>
 				</figure>
 			</a>
 

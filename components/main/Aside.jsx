@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Aside = () => {
 	return (
@@ -20,7 +21,13 @@ const Aside = () => {
 							Linked <i className="fab fa-linkedin"></i>
 						</div>
 						<figure className="linkedin__photo">
-							<img src="/linkedin.jpg" alt="" className="photo" />
+							<Image
+								src="/linkedin.jpg"
+								alt="perfil-linkedin"
+								className="photo animate__animated animate__fadeIn animate__faster"
+								width={55}
+								height={55}
+							/>
 						</figure>
 						<span className="linkedin-name">
 							<a

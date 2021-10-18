@@ -1,5 +1,6 @@
 import { useRouter } from 'next/dist/client/router';
 import React from 'react';
+import Image from 'next/image';
 
 const Description = () => {
 	const { pathname } = useRouter();
@@ -7,7 +8,13 @@ const Description = () => {
 	return (
 		<div className="main__description animate__animated animate__fadeIn animate__faster">
 			<figure className={`container__img ${pathname === '/' && 'none-home'}`}>
-				<img src="/about.jpg" alt="Sergio Nivin Huari" className="main__img" />
+				<Image
+					src="/about.jpg"
+					alt="Sergio Nivin Huari"
+					className="main__img animate__animated animate__fadeIn animate__faster"
+					width={312}
+					height={416}
+				/>
 			</figure>
 
 			<div className="main__introduction">

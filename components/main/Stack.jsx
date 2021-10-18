@@ -1,5 +1,6 @@
 import React from 'react';
 import Description from './Description';
+import Image from 'next/image';
 
 const Stack = () => {
 	return (
@@ -10,47 +11,51 @@ const Stack = () => {
 				<section className="grid__technologies">
 					<figure className="grid__item">
 						<i className="fab fa-html5"></i>
-						<figcaption className="img-alt">Html - Avanzado</figcaption>
+						<figcaption className="img-alt">Html</figcaption>
 					</figure>
 					<figure className="grid__item">
 						<i className="fab fa-css3-alt"></i>
-						<figcaption className="img-alt">Css - Avanzado</figcaption>
+						<figcaption className="img-alt">Css</figcaption>
 					</figure>
 					<figure className="grid__item">
 						<i className="fab fa-bootstrap"></i>
-						<figcaption className="img-alt">Boostrap - Avanzado</figcaption>
+						<figcaption className="img-alt">Boostrap</figcaption>
 					</figure>
 					<figure className="grid__item">
 						<i className="fab fa-sass"></i>
-						<figcaption className="img-alt">Sass / scss - Avanzado</figcaption>
+						<figcaption className="img-alt">Sass / scss</figcaption>
 					</figure>
 					<figure className="grid__item">
 						<i className="fab fa-js"></i>
-						<figcaption className="img-alt">Javascript - Avanzado</figcaption>
+						<figcaption className="img-alt">Javascript</figcaption>
 					</figure>
 					<figure className="grid__item">
 						<i className="fab fa-react"></i>
-						<figcaption className="img-alt">React - Avanzado</figcaption>
+						<figcaption className="img-alt">React</figcaption>
 					</figure>
 					<figure className="grid__item">
-						<img
+						<Image
 							className="item-img"
 							src="/technologies/patron.png"
 							alt="Redux"
+							width={26}
+							height={26}
 						/>
-						<figcaption className="img-alt">Redux - Avanzado</figcaption>
+						<figcaption className="img-alt">Redux</figcaption>
 					</figure>
 					<figure className="grid__item">
-						<img
+						<Image
 							className="item-img"
 							src="/technologies/typescript.png"
 							alt="Typescript"
+							width={26}
+							height={26}
 						/>
-						<figcaption className="img-alt">Typescript - Intermedio</figcaption>
+						<figcaption className="img-alt">Typescript</figcaption>
 					</figure>
 					<figure className="grid__item">
 						<i className="fab fa-neos"></i>
-						<figcaption className="img-alt">NextJs - Intermedio</figcaption>
+						<figcaption className="img-alt">NextJs</figcaption>
 					</figure>
 				</section>
 				<p className="technologies__text">
@@ -63,22 +68,24 @@ const Stack = () => {
 
 				<section className="testing">
 					<figure className="jest">
-						<img
+						<Image
 							src="/technologies/jest.png"
 							className="jest__img"
 							alt="jest"
+							width={30}
+							height={30}
 						/>
-						<figcaption className="jest__title">Jest - Intermedio</figcaption>
+						<figcaption className="jest__title">Jest</figcaption>
 					</figure>
 					<figure className="enzyme">
-						<img
+						<Image
 							src="/technologies/enzyme.png"
 							alt="enzyme"
 							className="enzyme__img"
+							width={30}
+							height={30}
 						/>
-						<figcaption className="enzyme__title">
-							Enzyme - Intermedio
-						</figcaption>
+						<figcaption className="enzyme__title">Enzyme</figcaption>
 					</figure>
 				</section>
 

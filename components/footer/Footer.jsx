@@ -10,7 +10,7 @@ const Footer = () => {
 				<figure className="footer__background">
 					<img
 						src="/react-optimizado.jpg"
-						alt=""
+						alt="react"
 						className="footer__background-img"
 					/>
 				</figure>
